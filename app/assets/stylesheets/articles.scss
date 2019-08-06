@@ -2,11 +2,25 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+ul {
+  list-style: none;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
 li.long-text {
-  width: 200px;
+  width: 50%;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
+  padding-bottom: 10px;
 }
 
 .big-box {
@@ -21,10 +35,31 @@ li.long-text {
 .container {
   width: 1000px;
   margin: 0 auto;
-  text-align: center;
 }
 
 .label {
   display: block;
   width: auto;
+  padding: 3px;
+}
+
+.title-text {
+  font-weight: bold;
+  font-size: 24px;
+  padding-bottom: 5px;
+}
+
+ul.navbar {
+  display: flex;
+  justify-content: space-around;
+  background-color: lightblue;
+  border-bottom: 1px solid darkblue;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 4px 0px;
+  margin: 0;
+}
+
+#navbar {
+  
 }
