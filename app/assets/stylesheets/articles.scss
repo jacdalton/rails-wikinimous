@@ -8,3 +8,23 @@ li.long-text {
   white-space: nowrap;
   text-overflow: ellipsis;
 }
+
+.big-box {
+  resize: vertical;
+  overflow: auto;
+}
+
+.text-box {
+  width: 50%;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.label {
+  display: block;
+  width: auto;
+}
